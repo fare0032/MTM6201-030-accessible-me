@@ -16,6 +16,12 @@
   <div class="container">
     <div class="site-header">
       <h1>Jam Box Studios</h1>
+      <div class="container">
+        <ul class="skip-links">
+          <li><a href="#nav">Skip to main nav</a></li>
+          <li><a href="#main">Skip to main content</a></li>
+        </ul>
+      </div>
       <div class="main-nav">
         <ul>
           <li><a href="#">Home</a></li>
@@ -26,18 +32,20 @@
       </div>
       <img src="https://placekitten.com/1200/900" class="banner">
     </div>
+
     <div class="main-content">
       <h1>Welcome to Jam Box</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
+
       <div class="owner">
         <h1>Meet the owner</h1>
-        <ul>
-          <li>Name: John Doe</li>
-          <li>Title: CEO</li>
-          <li>Email: johnjoe@jambox.ca</li>
-          <li>Phone: 613-000-0000</li>
-        </ul>
+            <ul itemscope itemtype="https://schema.org/Person">
+              <li>John Doe</li>  
+              <li>CEO</li>
+              <li>johndoe@jambox.ca</li>
+              <li>Phone: 613-000-0000</li>
+            </ul>
         <h1>Address</h1>
         <p>
           Jambox Studios
@@ -46,6 +54,7 @@
           B3T 0L0
         </p>
       </div>
+
       <div class="contact-section">
         <h1>Contact Us</h1>
         <form action="thanks.html">
@@ -59,10 +68,13 @@
         </form>
       </div>
     </div>
+
     <div class="site-footer">
       &copy; 2021 Jam Box Studios
     </div>
+    <a href="#" aria-label="shortcut to top of page">Back to top</a>
   </div>
+
 </body>
 
 </html>
